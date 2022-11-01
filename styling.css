@@ -1,0 +1,72 @@
+.topnav ul li{
+    list-style-type: none;
+    background-color: #89e4a2;
+}
+.topnav ul{
+  margin: 0px;
+  padding: 0px;   
+}
+.topnav ul a{
+    text-decoration: none;
+    color: white;
+    padding-left: 140px;
+    padding-right: 20px;
+    font-size: large;
+    font-weight: 700px;
+}
+.topnav{
+    background-color: #89e4a2;
+    width: auto;
+    height: 30px;
+}
+.topnav li{
+    float: left;
+    background-color: #89e4a2;
+}
+.topnav a:hover{
+    color: black;
+    background-color: LI;
+}
+.topnav :active{
+    color: white;
+    background-color: #1dce4f;
+}
+.vertical ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 25%;
+        background-color: #89e4a2;
+        height: 70%; /* Full height */
+        position: fixed; /* Make it stick, even on scroll */
+        overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+.vertical li a {
+    display: list-item;
+    width: 60%;
+}
+.vertical a:hover {
+    background-color: LI;
+    color: black;
+  }
+.vertical li{
+    float: left;
+    background-color: #89e4a2;
+    text-align: left;
+    border-bottom: 2px solid #555;
+}
+.vertical ul a{
+    text-decoration: none;
+    color: white;
+    padding-left: 140px;
+    padding-right: 20px;
+    font-size: large;
+    font-weight: 700px;
+}
+.vertical li:last-child {
+    border-bottom: none;
+}
+.vertical :active{
+    background-color: #1dce4f;
+    color: white;
+}
